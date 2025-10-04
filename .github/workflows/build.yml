@@ -6,9 +6,6 @@ name: eden-build
 #  push:
 #    branches: [ "master" ]
 
-on:
-  workflow_dispatch:
-    inputs: {}
 
 # TODO: combine build.yml into trigger_release.yml
 jobs:
